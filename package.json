@@ -1,0 +1,27 @@
+{
+  "name": "cloudwatch-cleaner",
+  "version": "1.0.0",
+  "description": "cloudwatch-cleaner",
+  "main": "index.js",
+  "bin": {
+    "cw-cleaner": "index.js"
+  },
+  "scripts": {
+    "clean": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aal80/cloudwatch-cleaner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/aal80/cloudwatch-cleaner/issues"
+  },
+  "homepage": "https://github.com/aal80/cloudwatch-cleaner#readme",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.1045.0"
+  }
+}
