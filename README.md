@@ -1,0 +1,2 @@
+# cloudwatch-cleaner
+cloudwatch-cleaner
